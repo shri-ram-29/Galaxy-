@@ -1,6 +1,16 @@
 # Galaxy- A Social Media Web Application
 **This is a social media web application built with React and Tailwind CSS, using Sanity as a database and Google authentication. The web app allows users to create and share their own boards, as well as view and save other users' boards.**
 
+# Getting Started 
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Setup your Google authentication and login to Sanity
+4. Note - In the frontend folder, there is an .env file which consist of 3 things
+   - REACT_APP_GOOGLE_API_TOKEN =        # Your Google API token for Google authentication
+   - REACT_APP_SANITY_PROJECT_ID =       # Your Sanity Project ID   
+   - REACT_APP_SANITY_TOKEN =            # Your Sanity Token 
+5. After setting up all the things run the app using `npm start`.
+
 ## Screenshots
 **Home Page**
 
@@ -25,3 +35,8 @@
 * View and save other users' boards.
 * Search for boards by keywords.
 * Like and comment on boards.
+
+# Tech
+* React
+* Tailwind CSS
+* Sanity
